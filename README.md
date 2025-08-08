@@ -9,7 +9,7 @@ cd smolagents
 ~~~
 docker build --force-rm=true -t agent-sandbox .
 ~~~
-## Step 4: Install uv and run
+## Run
 ~~~
 uv venv
 source .venv/bin/activate
