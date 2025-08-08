@@ -11,7 +11,12 @@ cd smolagents
 docker build --force-rm=true -t agent-sandbox .
 ~~~
 
-## Step 4: Run
+## Step 4: Create .env file
+~~~
+GOOGLE_API_KEY=<your api key>
+~~~
+
+## Step 5: Run
 ~~~
 uv venv
 source .venv/bin/activate
