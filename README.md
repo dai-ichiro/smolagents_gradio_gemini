@@ -5,11 +5,13 @@
 git clone https://github.com/dai-ichiro/smolagents_gradio_gemini smolagents
 cd smolagents
 ~~~
+
 ## Step 3: Create Docker image
 ~~~
 docker build --force-rm=true -t agent-sandbox .
 ~~~
-## Run
+
+## Step 4: Run
 ~~~
 uv venv
 source .venv/bin/activate
