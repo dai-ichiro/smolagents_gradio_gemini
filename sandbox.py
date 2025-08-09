@@ -40,8 +40,6 @@ class DockerSandbox:
                 command="tail -f /dev/null",  # コンテナを実行状態に保つ
                 detach=True,
                 tty=True,
-                extra_hosts={"host.docker.internal": "host-gateway"},
-                network_mode="bridge",
                 ports={'7860/tcp': 7860},  # Gradioのデフォルトポート
                 volumes={
                     data_dir_abs: {"bind": "/app/data", "mode": "rw"}
