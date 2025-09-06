@@ -17,6 +17,11 @@ GOOGLE_API_KEY=<your api key>
 ~~~
 
 ## Step 5: Run
+```
+uv sync
+uv run runner.py
+```
+or
 ~~~
 uv venv
 source .venv/bin/activate
